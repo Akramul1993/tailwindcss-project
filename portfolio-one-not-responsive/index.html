@@ -491,23 +491,23 @@
 
 
     <!--Contact Area-->
-    <section class="contact-area relative w-[1440px] h-[715px] p-[124px] flex gap-[60px] bg-[#ffd4d0] overflow-hidden">
+    <section class="contact-area relative w-full max-w-[1440px] min-h-[715px] p-[15%] sm:p-[8%] md:p-[10%] lg:p-[124px] flex flex-col lg:flex-row gap-[40px] md:gap-[50px] lg:gap-[60px] bg-[#ffd4d0] overflow-hidden">
 
         <!--Red Circle-->
-        <div class="red-circle absolute w-[221px] h-[221px] bg-[#fc3314] rounded-full top-[227px] -left-[134px] z-0"></div>
+        <div class="red-circle absolute w-[120px] sm:w-[160px] md:w-[200px] lg:w-[221px] h-[120px] sm:h-[160px] md:h-[200px] lg:h-[221px] bg-[#fc3314] rounded-full top-[50%] lg:top-[227px] -left-[50px] sm:-left-[80px] md:-left-[100px] lg:-left-[134px] z-0"></div>
         <!--Contact Left-->
-        <div class="contacr-left w-[566px] h-[467px] flex flex-col justify-between">
-            <div class="contact-left-text w-[566px] h-[318px] flex flex-col gap-[64px] text-start ">
-                <div class="contact-heading w-[566px] h-[118px] flex flex-col gap-[16px]">
-                    <h2 class="font-montserrat font-bold text-[36px] text-[#1F1F1F] leading-[150%]">Get in Touch</h2>
-                    <p class="font-montserrat font-normal text-[16px] text-[#1F1F1F] leading-[150%]">Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
+        <div class="contacr-left w-full lg:w-[566px] h-auto flex flex-col justify-between gap-[40px] md:gap-[50px] lg:gap-0">
+            <div class="contact-left-text w-full h-auto flex flex-col gap-[40px] md:gap-[50px] lg:gap-[64px] text-start ">
+                <div class="contact-heading w-full lg:w-[566px] h-auto flex flex-col gap-[16px]">
+                    <h2 class="font-montserrat font-bold text-2xl md:text-[32px] lg:text-[36px] text-[#1F1F1F] leading-[150%]">Get in Touch</h2>
+                    <p class="font-montserrat font-normal text-sm lg:text-base text-[#1F1F1F] leading-[150%]">Have a question or a project in mind? I'd love to hear from you. Let's chat and make something amazing together.</p>
                 </div>
-                <div class="contact-info w-[566px] h-[136px] flex flex-col gap-[32px] font-normal text-[16px] leading-[150%] ">
+                <div class="contact-info w-full lg:w-[566px] h-auto flex flex-col gap-6 md:gap-[32px] font-normal text-sm lg:text-base leading-[150%] ">
                     <div class="phone flex gap-[16px] items-center">
                         <div class="phone-icon">
                             <img src="assets/images/phone-icon.png" alt="">
                         </div>
-                        <p class="font-montserrat font-normal text-[16px] text-[#1F1F1F] text-start">+1205 5872 321</p>
+                        <p class="font-montserrat font-normal text-sm lg:text-base text-[#1F1F1F] text-start">+1205 5872 321</p>
                     </div>
 
                     <div class="email flex gap-[16px] items-center">
@@ -525,7 +525,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contact-left-social w-[192px] h-[30px] flex gap-[24px]">
+            <div class="contact-left-social w-full max-w-[192px] h-[30px] flex gap-4 md:gap-[24px]">
                 <div class="twitter w-[30px] h-[30px] bg-[#ffffff] rounded-full">
                     <img src="assets/images/twitter-icon.png" class="mx-auto pt-[10px]" alt="">
                 </div>
@@ -542,18 +542,18 @@
         </div>
 
         <!--Contact Right-->
-        <div class="contact-right w-[566px] h-[467px] flex flex-col gap-[32px]">
+        <div class="contact-right w-full lg:w-[566px] h-auto flex flex-col gap-[24px] md:gap-[32px]">
 
             <!--Text field-->
-            <div class="text-field w-[566px] h-[387px] flex flex-col gap-[24px] font-normal text-[14px] leading-[150%]">
-                <input class="bg-white w-full h-[49px] px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="text" placeholder="First Name">
-                <input class="bg-white w-full h-[49px] px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="email" placeholder="Email">
-                <input class="bg-white w-full h-[49px] px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="tel" placeholder="Phone Number">
-                <textarea class="bg-white w-full h-[168px] px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="" placeholder="Your Message"></textarea>
+            <div class="text-field w-full h-auto flex flex-col gap-[24px] font-normal text-xs sm:text-[14px] leading-[150%]">
+                <input class="bg-white w-full h-[44px] md:h-[49px] px-3 md:px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="text" placeholder="First Name">
+                <input class="bg-white w-full h-[44px] md:h-[49px] px-3 md:px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="email" placeholder="Email">
+                <input class="bg-white w-full h-[44px] md:h-[49px] px-3 md:px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="tel" placeholder="Phone Number">
+                <textarea class="bg-white w-full h-[90px] md:h-[168px] px-3md: px-[16px] py-[14px] placeholder:text[#8d8d8d]" type="" placeholder="Your Message"></textarea>
             </div>
 
             <!--Button-->
-            <a class="w-[233px] h-[48px] bg-[#1F1F1F] text-white px-[56px] py-[12px] font-montserrat font-bold text-[16px] leading-[150%]" href="#"> Sent Message</a>
+            <a class=" w-full[233px] h-[44px] md:h-[48px] bg-[#1F1F1F] text-white px-6 md:px-[56px] py-[12px] font-montserrat font-bold text-sm md:text-base leading-[150%] mx-auto lg:ml-0" href="#"> Sent Message</a>
         </div>
 
     </section>
